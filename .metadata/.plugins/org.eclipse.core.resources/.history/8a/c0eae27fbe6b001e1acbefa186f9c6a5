@@ -1,0 +1,37 @@
+package EggTestAutomation.BankExample;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+import entities.Bank;
+import entities.User;
+
+/**
+ * Hello world!
+ *
+ */
+public class App {
+    public static void main( String[] args ){
+    	
+    	User admin = new User("admin", "admin", true);
+    	User u1 = new User("user1", "user1", false);
+    	User u2 = new User("user2", "user2", false);
+    	
+    	Bank b1 = new Bank(admin, new ArrayList<User>(Arrays.asList(u1,u2)));
+    	
+    	System.out.println("Bienvenido al sistema bancario mas seguro del mundo");
+    	menu(b1);
+    	
+    }
+
+	private static void menu(Bank b1) {
+		try {
+    		User loged = b1.logIn();
+    	}catch(Exception e) {
+    		System.out.println(e.getMessage());
+    		menu(b1);
+    	}
+		
+		
+	}
+}

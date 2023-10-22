@@ -1,0 +1,10 @@
+package Entities;
+
+public class User {
+	private String username;
+	private String password;
+	private int balance;
+	private boolean admin;
+	
+	public 
+}
