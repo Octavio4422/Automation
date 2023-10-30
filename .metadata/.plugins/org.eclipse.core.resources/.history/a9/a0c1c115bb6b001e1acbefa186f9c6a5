@@ -1,6 +1,0 @@
-package entities;
-
-public class Bank {
-	private User admin;
-	private ArrayList<User> users = new ArrayList<>();
-}

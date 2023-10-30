@@ -1,6 +1,0 @@
-INDEX VERSION 1.134+/home/octavio/QA-QC/Automation/.metadata/.plugins/org.eclipse.jdt.core
-2555036429.index
-2221725216.index
-4073354939.index
-1865797976.index
-3939171498.index

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="launch" verbose="1">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://demoblaze.com/index.html"/>
+    <test name="homepage">
+        <classes>
+            <class name="test.HomeTest"></class>
+        </classes>
+    </test>
+</suite>

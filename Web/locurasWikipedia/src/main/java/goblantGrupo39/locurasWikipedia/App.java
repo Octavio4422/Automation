@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class App {
     public static void main( String[] args ){
     	Scanner sc = new Scanner(System.in);
-    	String pathChrome = "/home/octavio/Downloads/mvn/chromedriver-linux64/chromedriver";
+    	String pathChrome = "O:\\Octavio\\QA-A\\Automation\\Web\\locurasWikipedia\\utils\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", pathChrome);
         WebDriver driver = new ChromeDriver();
         
